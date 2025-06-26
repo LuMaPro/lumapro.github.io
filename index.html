@@ -1,7 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil - Lucas Martins Próspero</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+    }
+    .container {
+      display: flex;
+      align-items: flex-start;
+      padding: 20px;
+    }
+    .photo {
+      flex-shrink: 0;
+      border: 5px solid #333;
+    }
+    .photo img {
+      height: 400px;
+      width: auto;
+      object-fit: cover;
+    }
+    .info {
+      margin-left: 40px;
+      max-width: 600px;
+    }
+    .info h1 {
+      color: #e0e0e0;
+      margin-bottom: 10px;
+    }
+    .info p {
+      margin: 6px 0;
+    }
+    .info a {
+      color: #4fa4ff;
+      text-decoration: none;
+    }
+    .info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
 <body>
-<h1>Lucas Martins Prospero's personal page</h1>
-<p>Coming soon...</p>
+  <div class="container">
+    <div class="photo">
+      <img src="image.png" alt="Lucas Martins Próspero">
+    </div>
+    <div class="info">
+      <h1>Lucas Martins Próspero</h1>
+      <p>3rd semester student</p>
+      <p>Bacharelado em Ciência da Computação (BCC)</p>
+      <p>Instituto de Matemática e Estatística (IME)</p>
+      <p>Universidade de São Paulo (USP), Brazil</p>
+      <p><a href="mailto:lucasmartinsprospero@usp.br">lucasmartinsprospero@usp.br</a></p>
+      <h2 style="margin-top: 20px; color: #e0e0e0;">About me:</h2>
+      <p>
+        I'm a Computer Science undergraduate student at the Institute of Mathematics and Statistics (IME-USP), where students have the freedom to choose specific paths within the field (<a href="https://bcc.ime.usp.br/trilhas/" target="_blank" style="color: #4fa4ff;">https://bcc.ime.usp.br/trilhas/</a>), and even combine them if they wish.<br>
+
+        After taking the course MAC0102 — designed to help students explore and choose one or more of these specialization tracks — I decided to fully pursue the Software and Artificial Intelligence tracks.
+        The Software track appealed to me because it provides a comprehensive understanding of how programming evolves into real-world applications. It covers not only the development process but also the broader context of software as a product: design, deployment, user experience, and project lifecycle.<br>
+        The AI track, on the other hand, reflects the current and future landscape of technology. With artificial intelligence becoming increasingly integrated into everyday tools and services, having a solid grasp of AI concepts is essential. Moreover, combining AI with Software opens the door to developing intelligent and user-friendly applications — a synergy that strongly motivates me.<br>
+        
+        Finally, it's worth noting that my choice of these tracks doesn't prevent me from exploring other fields, such as Data Science and Theoretical Computer Science, which I also find fascinating.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
